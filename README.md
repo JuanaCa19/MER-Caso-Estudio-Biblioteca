@@ -63,13 +63,5 @@ La **Biblioteca San Rafael** actualmente controla sus préstamos con fichas de p
 - monto
 - pagada
 
-### Relaciones
-
-| Relación | Entidades | Cardinalidad | Atributos propios |
-|---|---|---|---|
-| Tiene | Libro – CopiaLibro | 1:N | — |
-| Presta | Usuario – CopiaLibro | N:M | fechaPrestamo, fechaDevolucion |
-| tiene | Usuario – Multa | 1:N | — |
-
 
 
